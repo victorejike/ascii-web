@@ -5,11 +5,16 @@ import (
 )
 
 func main() {
-	time := 20
+	// for i := 1; i <= 5; i++ {
+	// 	fmt.Println(i)
+	// }
 
-	if time > 18 {
-		fmt.Println("go eveing how are you doing")
-	} else {
-		fmt.Println("go morning ladies and gental men")
+	N := 10
+	sum := 0
+
+	for i := 1; i <= N; i++ {
+
+		sum = sum + i
+		fmt.Println(sum)
 	}
 }
