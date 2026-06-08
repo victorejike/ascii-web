@@ -5,16 +5,11 @@ import (
 )
 
 func main() {
-	// for i := 1; i <= 5; i++ {
-	// 	fmt.Println(i)
-	// }
+	result := [2]string{"victor", "ejike"}
 
-	N := 10
-	sum := 0
+	fmt.Println(result, result[0], result[len(result)-1])
 
-	for i := 1; i <= N; i++ {
+	result[1] = "nmesomma"
 
-		sum = sum + i
-		fmt.Println(sum)
-	}
+	fmt.Println(result)
 }
